@@ -1,0 +1,119 @@
+.form__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55px 0 !important;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  .input_form{
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid#D9D9D9;
+    padding: 0%;
+    margin-bottom: 45px;
+    transition:  border-bottom ease-in-out 2 ms;
+  }
+  .input_form:hover .icon-input{
+    color: #007bff;
+  }
+  .input_form:hover{
+    border-bottom: 3px solid #007bff;
+  }
+  .username,.password{
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    margin-bottom: 4px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .icon-input{
+    margin-bottom: 16px;
+    color: #ADB0B2;
+    transition: color ease-in-out 0.2ms;
+  }
+  .username,.password:focus-visible{
+    border: none;
+    outline: none;
+
+  }
+
+  .submit_btn1
+    {
+    width: 100%;
+    background-color: #007bff !important;
+    color: #FFFFFF;
+    border: 1px solid #007bff !important;
+  
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+  
+  }
+  .submit_btn1:hover{
+    background-color: #FFFFFF !important;
+    color: #007bff !important;
+    border: 1px solid #007bff;
+
+  }
+  
+
+  .label{
+     margin-left: -320px;
+     font-weight: 300;
+     font-size: 16px;
+     font-family: Poppins-Medium;
+  }
+  .label.pass{
+    margin-left: -300px !important;
+  }
+  .form-title{
+    margin-bottom:45px;
+    font-weight: 550;
+    color: #060606; 
+
+  }
+  .container_form{
+    padding: 0px -8px;
+    border: 1px solid #007bff;
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    max-width: 700px;
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* flex-direction: column; */
+  }
+  
+  @media (max-width: 566.99px) {
+    .input_form{
+      width: 100%;
+    }
+  }
+    
+  @media (max-width: 420.99px) {
+    .input_form{
+      width: 90%;
+    }
+    .submit_btn1{
+      width: 90%;
+    }
+  }
